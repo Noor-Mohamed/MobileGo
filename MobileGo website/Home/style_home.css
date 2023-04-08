@@ -1,0 +1,107 @@
+/*    red color #a0000a   */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+}
+
+section{
+    display: block;
+    margin-bottom: 300px;
+}
+
+.home_navbar{
+    background-color: #fff;
+    height: 75px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+}
+
+.nav_logo{
+    width: 100px;
+    float: left;
+    margin-left: 1%;
+    margin-top: 10px;
+}
+
+.main_nav{
+    float: left;
+    list-style: none;
+    margin-top: 35px;
+    margin-left: 2%;
+}
+
+.main_nav li{
+    display: inline-block;
+    margin-left: 15px;
+    
+}
+
+.main_nav li a:link,
+.main_nav li a:visited {
+    padding: 5px 4px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 80%;
+    transition:  0.3s;
+    border: 2px solid transparent;
+    transition: border-bottom 0.3s;
+}
+
+ul:hover li .nav_link{
+    color: rgb(171, 171, 171);
+  }
+  
+ul li .nav_link:hover{
+    border-bottom: 2px solid #a0000a;
+    opacity:1;
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+  }
+
+.profile_img{
+    float: right;
+    width: 30px;
+    margin-top: 33px;
+    margin-right: 2%;
+}
+
+.log_in{
+    float: right;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: 35px;
+    margin-right: 2%;
+}
+.log_in:link,
+.log_in:visited{
+    background-color: #a0000a;
+    color: #fff;
+    padding: 5px;
+    border-radius: 13px;
+
+}
+
+.log_in:hover{
+    background-color: #770008;
+}
+
+.home_vedio{
+    margin-top: 100px;
+}
+
