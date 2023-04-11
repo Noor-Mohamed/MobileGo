@@ -255,7 +255,6 @@ select:hover{
     justify-content: space-around;
     align-items: center;
     margin-top: 1%;
-    transition: 1s ease;
 }
 .Join-Now h3{
     font-size: 25px;
@@ -268,8 +267,12 @@ select:hover{
     padding: 5px 110px 5px 110px;
 }
 
-.Join-Now:hover{
-    transform: scale(1.1);
+.Join-Now a{
+    transition: 0.6s ease;
+}
+
+.Join-Now a:hover{
+    transform: scale(1.05);
     color:#770008;
     cursor: pointer;
 }

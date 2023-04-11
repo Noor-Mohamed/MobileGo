@@ -16,15 +16,17 @@
             <ul class="main_nav">
                 <li><a class="nav_link" href="#">Home</a></li>
                 <li><a class="nav_link" href="../store/index_store.html">Store</a></li>
-                <li><a class="nav_link" href="#">Offers</a></li>
-                <li><a class="nav_link" href="#">About us</a></li>
+                <li><a class="nav_link" href="#offers">Offers</a></li>
+                <li><a class="nav_link" href="#about_us">About us</a></li>
                 <li><a class="nav_link" href="#">Contact us</a></li>
             </ul>
             <img class="profile_img" src="imgs/user.png" alt="user">
             <a class="log_in" href="../login/index_login.html">Log in</a> 
         </nav>
         <div class="Main_header">
-            <video src="video/home_video.webm" autoplay muted></video>
+            <video id="myVideo" autoplay muted>
+                <source src="video/home_video.webm" type="video/webm">
+            </video>
             <div class="text-overlay">
                 <h1>OFFERS UP TO <b>25%</b> OFF</h1>
             </div>
@@ -33,7 +35,7 @@
             </div>
         </div>
     </header>
-    <section class="offers_sec">
+    <section id="offers" class="offers_sec">
         <div class="latest_offers row">
             <h2>LATEST OFFERS</h2>
         </div>
@@ -106,6 +108,23 @@
                         </div>
                     </a>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section id="about_us" class="about_sec">
+        <div class="row">
+            <h2>ABOUT US</h2>
+        </div>
+        <div class="about_content">
+            <div class="about_text">
+                <p><font color="#a0000a">- </font>MobileGo is your one-stop-shop for the latest smartphones.<br><br>
+                    <font color="#a0000a">- </font>We're passionate about providing our customers with the best technology atcompetitive prices.<br><br>
+                    <font color="#a0000a">- </font>Our team is dedicated to offering exceptional customer service,
+                    fast and reliable shipping, and easy returns.<br><br> 
+                    <font color="#a0000a">- </font>Shop with confidence knowing that MobileGo is committed to your satisfaction.</p>
+            </div>
+            <div class="about_img">
+                <img src="imgs/MobileGo.png" alt="MobileGo">
             </div>
         </div>
     </section>
