@@ -1,5 +1,5 @@
 /*    red color #a0000a   */
-
+/*-----------Basic setup------------*/
 *{
     margin: 0;
     padding: 0;
@@ -16,11 +16,35 @@ html {
     scroll-behavior: smooth;
 }
 
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
 section{
     display: block;
     margin-bottom: 300px;
+    padding: 80px 0px;
 }
 
+.box {
+    padding: 1%;
+    
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+div{
+    display: block;
+}
+/*------------Main-Nav--------------*/
 .home_navbar{
     background-color: #fff;
     height: 75px;
@@ -56,7 +80,7 @@ section{
     padding: 5px 4px;
     color: rgb(0, 0, 0);
     text-decoration: none;
-    font-weight: 100;
+    font-weight: 400;
     font-size: 80%;
     transition:  0.3s;
     border: 2px solid transparent;
@@ -85,6 +109,7 @@ ul li .nav_link:hover{
     float: right;
     text-decoration: none;
     font-size: 17px;
+    font-weight: 400;
     margin-top: 35px;
     margin-right: 2%;
 }
@@ -100,8 +125,150 @@ ul li .nav_link:hover{
 .log_in:hover{
     background-color: #770008;
 }
+/*--------------Main-Header----------------*/
+.Main_header {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 45%; /* set the aspect ratio of the video here */
+  }
+  
+  .Main_header video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -20%);
+    text-align: center;
+    z-index: 1;
+  }
+  
+  .text-overlay h1 {
+    font-size: 200%;
+    color: #fff;
+  }
 
-.home_vedio{
-    margin-top: 100px;
+.text-overlay b{
+    font-size: 150%;
+    color: #a0000a;
 }
 
+.text-overlay2 {
+    display: block;
+    position: absolute;
+    top: 60%;
+    left: 13%;
+    transform: translate( -63%, -10%);
+    text-align: center;
+    z-index: 1;
+}
+
+.text-overlay2 h3{
+    color: #a0000a;
+    font-size: 100%;
+}
+
+.main_text{
+    border-left: solid #a0000a 1px;
+}
+/*--------------section offers----------------*/
+
+.latest_offers h2{
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    color: black;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.latest_offers h2:after {
+    display: block;
+    height: 2px;
+    background-color: #a0000a;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+/*----------offer-cards-----------*/
+
+.card_link{
+    text-decoration: none;
+}
+
+.phone_img{
+    width: 70%;
+    height: 44%;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.card{
+    background-color: #fff;
+    color: white;
+    width: auto;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 100%);
+    border-radius: 30px;
+    padding: 30px;
+    margin: 150px 20px 20px 50px;
+    margin-top: 50px;
+    background-color: #696969;
+    transition: 0.7s ease;
+    text-align: center;
+}
+.card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.img_container h1{
+    font-weight: 300;
+    font-size: 120%;
+}
+
+.price_info{
+    text-align: left;
+    margin-top: 10px;
+}
+
+.info{
+    text-align: center;
+}
+.info p{
+    color:#fff;
+    margin: 10px;
+}
+.price{
+    font-size: 120%;
+    font-weight: 500;
+}
+.info_text{
+    font-size: 90%;
+}
+
+sup{
+    font-size: 50%;
+    color: rgb(213, 213, 213);
+}
+
+s{
+    color: rgb(213, 213, 213);
+}
+
+.card_offer{
+    text-align: right;
+    margin-right: 8%;
+    color: #5bc86e;
+}
