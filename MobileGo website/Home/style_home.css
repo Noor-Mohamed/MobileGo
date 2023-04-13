@@ -16,15 +16,6 @@ html {
     scroll-behavior: smooth;
 }
 
-.clearfix {zoom: 1}
-.clearfix:after {
-    content: '.';
-    clear: both;
-    display: block;
-    height: 0;
-    visibility: hidden;
-}
-
 section{
     display: block;
     margin-bottom: 50px;
@@ -423,19 +414,22 @@ s{
 .team_content{
     text-align: center;
     border-bottom: #a0000a solid 2px;
+ 
 }
 
 .team_content img{
     width: 250px;
     border-radius: 50%;
-    transition: 0.4s ease;
+    transition: 0.4s ease, opacity 0.4s;
 }
 
 .team_content img:hover{
     box-shadow: 0 0 40px rgb(160, 0, 10);
     transform: scale(1.1);
-    
+    opacity: 1;   
 }
+
+
 
 .team_content h3{
     color: #000;
