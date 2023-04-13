@@ -180,6 +180,10 @@ ul li .nav_link:hover{
 .main_text{
     border-left: solid #a0000a 1px;
 }
+
+
+
+
 /*--------------section offers----------------*/
 
 .latest_offers h2{
@@ -273,10 +277,83 @@ s{
     margin-right: 8%;
     color: #5bc86e;
 }
-/*-----------About us sec-----------*/
-.about_sec{
-    background-color: #f6f6f6;  
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
 }
+.store_link:visited,
+.store_link:link{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: #a0000a solid 2px;
+    border-radius: 15px;
+    padding: 7px 15% 7px 15%;
+    font-weight: 400;
+    transition: 0.5s;
+}
+.store_link:hover{
+    background-color: #a0000a;
+    color: #fff;
+}
+
+/*------------features--------------*/
+.features_sec{
+    background-color: #f6f6f6;
+ }
+ 
+ 
+ .features_header h2{
+     font-size: 180%;
+     word-spacing: 2px;
+     text-align: center;
+     margin-bottom: 100px;
+     letter-spacing: 1px;
+     color: black;
+     font-weight: 300;
+     text-transform: uppercase;
+ }
+ 
+ .features_header h2:after {
+     display: block;
+     height: 2px;
+     background-color: #a0000a;
+     content: " ";
+     width: 100px;
+     margin: 0 auto;
+     margin-top: 30px;
+ }
+ 
+ .features_contenet{
+     text-align: center;
+     background-color: #fff;
+     border-radius: 15px;
+ }
+ 
+ .features_contenet i{
+     font-size: 50px;
+     margin-bottom: 20px;
+     margin-top: 20px;
+ }
+ 
+ .features_contenet h3{
+     color: #000;
+     font-weight: 400;
+ }
+ 
+ .features_contenet p{
+     font-weight: 400;
+     margin-top: 30px;
+     margin-bottom: 50px;
+     line-height: 1.4;
+     text-align: left;
+     margin-left: 10px;
+     margin-right: 10px;
+ }
+
+/*-----------About us sec-----------*/
 
 .about_sec h2{
     font-size: 180%;
@@ -315,8 +392,50 @@ s{
 }
 
 .about_content{
-    margin-bottom: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+/*--------------Team section----------------*/
+
+.team_header h2{
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 100px;
+    letter-spacing: 1px;
+    color: black;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.team_header h2:after {
+    display: block;
+    height: 2px;
+    background-color: #a0000a;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.team_content{
+    text-align: center;
+    border-bottom: #a0000a solid 2px;
+}
+
+.team_content img{
+    width: 250px;
+    border-radius: 50%;
+}
+
+
+
+.team_content h3{
+    color: #000;
+    font-weight: 400;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
