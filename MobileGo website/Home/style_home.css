@@ -372,6 +372,7 @@ s{
     color: #000;
     font-weight: 400;
     font-size: 22px;
+    padding-left: 3%;
 }
 
 .about_img img{
@@ -379,7 +380,8 @@ s{
 }
 
 .about_img{
-    padding-left: 15%;
+    margin-left: 3%;
+    padding-right: 3%;
 }
 
 .about_content{
