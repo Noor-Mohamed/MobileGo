@@ -75,7 +75,6 @@ div{
     font-size: 80%;
     transition:  0.3s;
     border: 2px solid transparent;
-    transition: border-bottom 0.3s;
 }
 
 ul:hover li .nav_link{
