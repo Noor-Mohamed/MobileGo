@@ -74,7 +74,10 @@ div{
     font-weight: 400;
     font-size: 80%;
     border: 2px solid transparent;
+<<<<<<< HEAD
     transition: 0.3s;
+=======
+>>>>>>> a47a8bd83f9754cda6f0c8263fa2b4b174c9f188
 }
 
 ul:hover li .nav_link{
