@@ -1,9 +1,12 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style_store.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css2.css">
     <script src="script_store.js"></script>
     <title>Mobile GO</title>
 </head>
@@ -18,110 +21,339 @@
             </ul>
             <img class="profile_img" src="images/user.png" alt="user">
             <a class="log_in" href="../login/index_login.html">Log in</a> 
-            <hr>
         </nav>
         
     </header>
     <!--Our products section-->
     
-    <div class="store">
-        <h3>Store</h3>
-    </div>
-    
-
     <!--Top button-->
     <button onclick="topFunction()" id="myBtn" title="Go to top"><img  class="arrow" src="images/arrow.png" alt="arrow_up"></button>
     
-    <!--Card of Mobiles-->
-    <div class="card_container">
-        <!--Card of iphone 14 pro max-->
-        <a class="card_link" href="#">
-            <div class="card">
-                <div class="img_container">
-                    <img class="img" src="images/Apple iPhone 14 Pro Max.jpg" alt="mobile_photo">
-                    <h1>Apple iPhone 14 Pro Max Space Black</h1>
+    <!--Cards using bootstrap-->
+    <div class="container-lg cards_container" >
+        <div class="row justify-content-center">
+            <div class="card mx-2 my-2 card_store" style="width: 16rem; margin-left: 20px;">
+                <a href="#" class="link_phone">
+                    <img src="images/Apple iPhone 14 Pro Max.jpg" class="card-img-top img_card" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title card_brand">Apple iPhone 13</h5>
+                        <div class="price_info">
+                            <p class="price"><sup>EGP</sup>38,996<sup>00</sup></p>
+                            <p class="Last_p"><sup>EGP</sup><s>51,995</s><sup>00</sup></p> 
+                        </div>
+                        <div class="card_offer">
+                            <p>25% OFF</p>
+                        </div>
+                        <p class="card-text">Get it as soon as Tomorrow, Apr 7 Fulfilled by Mobile GO - FREE Shipping on orders over EGP 350.</p>
                 </div>
-                <div class="info">
-                    <p class="price">EGP 51,995</p> 
-                    <p class="info_text"> Get it as soon as Tomorrow, Apr 7 Fulfilled by Mobile GO - FREE Shipping on orders over EGP 350.</p>
-                </div>
+                </a>
             </div>
-        </a>
-    </div>
-    <div class="card_container">
-        <!--Card of iphone 14 pro max-->
-        <a class="card_link" href="#">
-            <div class="card">
-                <div class="img_container">
-                    <img class="img" src="images/Apple iPhone 14 Pro Max.jpg" alt="mobile_photo">
-                    <h1>Apple iPhone 14 Pro Max Space Black</h1>
+            <div class="card mx-2 my-2 card_store" style="width: 16rem; margin-left: 20px;">
+                <a href="#" class="link_phone">
+                    <img src="images/Apple iPhone 14 Pro Max.jpg" class="card-img-top img_card" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title card_brand">Apple iPhone 13</h5>
+                        <div class="price_info">
+                            <p class="price"><sup>EGP</sup>38,996<sup>00</sup></p>
+                            <p class="Last_p"><sup>EGP</sup><s>51,995</s><sup>00</sup></p> 
+                        </div>
+                        <div class="card_offer">
+                            <p>25% OFF</p>
+                        </div>
+                        <p class="card-text">Get it as soon as Tomorrow, Apr 7 Fulfilled by Mobile GO - FREE Shipping on orders over EGP 350.</p>
                 </div>
-                <div class="info">
-                    <p class="price">EGP 51,995</p> 
-                    <p class="info_text"> Get it as soon as Tomorrow, Apr 7 Fulfilled by Mobile GO - FREE Shipping on orders over EGP 350.</p>
-                </div>
+                </a>
             </div>
-        </a>
-    </div>
-    <div class="card_container">
-        <!--Card of iphone 14 pro max-->
-        <a class="card_link" href="#">
-            <div class="card">
-                <div class="img_container">
-                    <img class="img" src="images/Apple iPhone 14 Pro Max.jpg" alt="mobile_photo">
-                    <h1>Apple iPhone 14 Pro Max Space Black</h1>
+            <div class="card mx-2 my-2 card_store" style="width: 16rem; margin-left: 20px;">
+                <a href="#" class="link_phone">
+                    <img src="images/Apple iPhone 14 Pro Max.jpg" class="card-img-top img_card" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title card_brand">SAMSUNG GALAXY(A53 5G)</h5>
+                        <div class="price_info">
+                            <p class="price"><sup>EGP</sup>38,996<sup>00</sup></p>
+                            <p class="Last_p No_Offer"><sup>EGP</sup><s>51,995</s><sup>00</sup></p> 
+                        </div>
+                        <div class="card_offer">
+                            <p class="No_Offer">_</p>
+                        </div>
+                        <p class="card-text">Get it as soon as Tomorrow, Apr 7 Fulfilled by Mobile GO - FREE Shipping on orders over EGP 350.</p>
                 </div>
-                <div class="info">
-                    <p class="price">EGP 51,995</p> 
-                    <p class="info_text"> Get it as soon as Tomorrow, Apr 7 Fulfilled by Mobile GO - FREE Shipping on orders over EGP 350.</p>
-                </div>
+                </a>
             </div>
-        </a>
-    </div>
-    <div class="card_container">
-        <!--Card of iphone 14 pro max-->
-        <a class="card_link" href="#">
-            <div class="card">
-                <div class="img_container">
-                    <img class="img" src="images/Apple iPhone 14 Pro Max.jpg" alt="mobile_photo">
-                    <h1>Apple iPhone 14 Pro Max Space Black</h1>
+            <div class="card mx-2 my-2 card_store" style="width: 16rem; margin-left: 20px;">
+                <a href="#" class="link_phone">
+                    <img src="images/Apple iPhone 14 Pro Max.jpg" class="card-img-top img_card" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title card_brand">SAMSUNG GALAXY(A53 5G)</h5>
+                        <div class="price_info">
+                            <p class="price"><sup>EGP</sup>38,996<sup>00</sup></p>
+                            <p class="Last_p No_Offer"><sup>EGP</sup><s>51,995</s><sup>00</sup></p> 
+                        </div>
+                        <div class="card_offer">
+                            <p class="No_Offer">_</p>
+                        </div>
+                        <p class="card-text">Get it as soon as Tomorrow, Apr 7 Fulfilled by Mobile GO - FREE Shipping on orders over EGP 350.</p>
                 </div>
-                <div class="info">
-                    <p class="price">EGP 51,995</p> 
-                    <p class="info_text"> Get it as soon as Tomorrow, Apr 7 Fulfilled by Mobile GO - FREE Shipping on orders over EGP 350.</p>
-                </div>
+                </a>
             </div>
-        </a>
-    </div>
-    <div class="card_container">
-        <!--Card of iphone 14 pro max-->
-        <a class="card_link" href="#">
-            <div class="card">
-                <div class="img_container">
-                    <img class="img" src="images/Apple iPhone 14 Pro Max.jpg" alt="mobile_photo">
-                    <h1>Apple iPhone 14 Pro Max Space Black</h1>
+            <div class="card mx-2 my-2 card_store" style="width: 16rem; margin-left: 20px;">
+                <a href="#" class="link_phone">
+                    <img src="images/Apple iPhone 14 Pro Max.jpg" class="card-img-top img_card" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title card_brand">SAMSUNG GALAXY(A53 5G)</h5>
+                        <div class="price_info">
+                            <p class="price"><sup>EGP</sup>38,996<sup>00</sup></p>
+                            <p class="Last_p No_Offer"><sup>EGP</sup><s>51,995</s><sup>00</sup></p> 
+                        </div>
+                        <div class="card_offer">
+                            <p class="No_Offer">_</p>
+                        </div>
+                        <p class="card-text">Get it as soon as Tomorrow, Apr 7 Fulfilled by Mobile GO - FREE Shipping on orders over EGP 350.</p>
                 </div>
-                <div class="info">
-                    <p class="price">EGP 51,995</p> 
-                    <p class="info_text"> Get it as soon as Tomorrow, Apr 7 Fulfilled by Mobile GO - FREE Shipping on orders over EGP 350.</p>
-                </div>
+                </a>
             </div>
-        </a>
-    </div>
-    <div class="card_container">
-        <!--Card of iphone 14 pro max-->
-        <a class="card_link" href="#">
-            <div class="card">
-                <div class="img_container">
-                    <img class="img" src="images/Apple iPhone 14 Pro Max.jpg" alt="mobile_photo">
-                    <h1>Apple iPhone 14 Pro Max Space Black</h1>
+            <div class="card mx-2 my-2 card_store" style="width: 16rem; margin-left: 20px;">
+                <a href="#" class="link_phone">
+                    <img src="images/Apple iPhone 14 Pro Max.jpg" class="card-img-top img_card" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title card_brand">SAMSUNG GALAXY(A53 5G)</h5>
+                        <div class="price_info">
+                            <p class="price"><sup>EGP</sup>38,996<sup>00</sup></p>
+                            <p class="Last_p No_Offer"><sup>EGP</sup><s>51,995</s><sup>00</sup></p> 
+                        </div>
+                        <div class="card_offer">
+                            <p class="No_Offer">_</p>
+                        </div>
+                        <p class="card-text">Get it as soon as Tomorrow, Apr 7 Fulfilled by Mobile GO - FREE Shipping on orders over EGP 350.</p>
                 </div>
-                <div class="info">
-                    <p class="price">EGP 51,995</p> 
-                    <p class="info_text"> Get it as soon as Tomorrow, Apr 7 Fulfilled by Mobile GO - FREE Shipping on orders over EGP 350.</p>
-                </div>
+                </a>
             </div>
-        </a>
+            <div class="card mx-2 my-2 card_store" style="width: 16rem; margin-left: 20px;">
+                <a href="#" class="link_phone">
+                    <img src="images/Apple iPhone 14 Pro Max.jpg" class="card-img-top img_card" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title card_brand">SAMSUNG GALAXY(A53 5G)</h5>
+                        <div class="price_info">
+                            <p class="price"><sup>EGP</sup>38,996<sup>00</sup></p>
+                            <p class="Last_p No_Offer"><sup>EGP</sup><s>51,995</s><sup>00</sup></p> 
+                        </div>
+                        <div class="card_offer">
+                            <p class="No_Offer">_</p>
+                        </div>
+                        <p class="card-text">Get it as soon as Tomorrow, Apr 7 Fulfilled by Mobile GO - FREE Shipping on orders over EGP 350.</p>
+                </div>
+                </a>
+            </div>
+            <div class="card mx-2 my-2 card_store" style="width: 16rem; margin-left: 20px;">
+                <a href="#" class="link_phone">
+                    <img src="images/Apple iPhone 14 Pro Max.jpg" class="card-img-top img_card" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title card_brand">SAMSUNG GALAXY(A53 5G)</h5>
+                        <div class="price_info">
+                            <p class="price"><sup>EGP</sup>38,996<sup>00</sup></p>
+                            <p class="Last_p No_Offer"><sup>EGP</sup><s>51,995</s><sup>00</sup></p> 
+                        </div>
+                        <div class="card_offer">
+                            <p class="No_Offer">_</p>
+                        </div>
+                        <p class="card-text">Get it as soon as Tomorrow, Apr 7 Fulfilled by Mobile GO - FREE Shipping on orders over EGP 350.</p>
+                </div>
+                </a>
+            </div>
+            <div class="card mx-2 my-2 card_store" style="width: 16rem; margin-left: 20px;">
+                <a href="#" class="link_phone">
+                    <img src="images/Apple iPhone 14 Pro Max.jpg" class="card-img-top img_card" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title card_brand">SAMSUNG GALAXY(A53 5G)</h5>
+                        <div class="price_info">
+                            <p class="price"><sup>EGP</sup>38,996<sup>00</sup></p>
+                            <p class="Last_p No_Offer"><sup>EGP</sup><s>51,995</s><sup>00</sup></p> 
+                        </div>
+                        <div class="card_offer">
+                            <p class="No_Offer">_</p>
+                        </div>
+                        <p class="card-text">Get it as soon as Tomorrow, Apr 7 Fulfilled by Mobile GO - FREE Shipping on orders over EGP 350.</p>
+                </div>
+                </a>
+            </div>
+            <div class="card mx-2 my-2 card_store" style="width: 16rem; margin-left: 20px;">
+                <a href="#" class="link_phone">
+                    <img src="images/Apple iPhone 14 Pro Max.jpg" class="card-img-top img_card" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title card_brand">SAMSUNG GALAXY(A53 5G)</h5>
+                        <div class="price_info">
+                            <p class="price"><sup>EGP</sup>38,996<sup>00</sup></p>
+                            <p class="Last_p No_Offer"><sup>EGP</sup><s>51,995</s><sup>00</sup></p> 
+                        </div>
+                        <div class="card_offer">
+                            <p class="No_Offer">_</p>
+                        </div>
+                        <p class="card-text">Get it as soon as Tomorrow, Apr 7 Fulfilled by Mobile GO - FREE Shipping on orders over EGP 350.</p>
+                </div>
+                </a>
+            </div>
+            <div class="card mx-2 my-2 card_store" style="width: 16rem; margin-left: 20px;">
+                <a href="#" class="link_phone">
+                    <img src="images/Apple iPhone 14 Pro Max.jpg" class="card-img-top img_card" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title card_brand">SAMSUNG GALAXY(A53 5G)</h5>
+                        <div class="price_info">
+                            <p class="price"><sup>EGP</sup>38,996<sup>00</sup></p>
+                            <p class="Last_p No_Offer"><sup>EGP</sup><s>51,995</s><sup>00</sup></p> 
+                        </div>
+                        <div class="card_offer">
+                            <p class="No_Offer">_</p>
+                        </div>
+                        <p class="card-text">Get it as soon as Tomorrow, Apr 7 Fulfilled by Mobile GO - FREE Shipping on orders over EGP 350.</p>
+                </div>
+                </a>
+            </div>
+            <div class="card mx-2 my-2 card_store" style="width: 16rem; margin-left: 20px;">
+                <a href="#" class="link_phone">
+                    <img src="images/Apple iPhone 14 Pro Max.jpg" class="card-img-top img_card" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title card_brand">SAMSUNG GALAXY(A53 5G)</h5>
+                        <div class="price_info">
+                            <p class="price"><sup>EGP</sup>38,996<sup>00</sup></p>
+                            <p class="Last_p No_Offer"><sup>EGP</sup><s>51,995</s><sup>00</sup></p> 
+                        </div>
+                        <div class="card_offer">
+                            <p class="No_Offer">_</p>
+                        </div>
+                        <p class="card-text">Get it as soon as Tomorrow, Apr 7 Fulfilled by Mobile GO - FREE Shipping on orders over EGP 350.</p>
+                </div>
+                </a>
+            </div>
+            <div class="card mx-2 my-2 card_store" style="width: 16rem; margin-left: 20px;">
+                <a href="#" class="link_phone">
+                    <img src="images/Apple iPhone 14 Pro Max.jpg" class="card-img-top img_card" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title card_brand">SAMSUNG GALAXY(A53 5G)</h5>
+                        <div class="price_info">
+                            <p class="price"><sup>EGP</sup>38,996<sup>00</sup></p>
+                            <p class="Last_p No_Offer"><sup>EGP</sup><s>51,995</s><sup>00</sup></p> 
+                        </div>
+                        <div class="card_offer">
+                            <p class="No_Offer">_</p>
+                        </div>
+                        <p class="card-text">Get it as soon as Tomorrow, Apr 7 Fulfilled by Mobile GO - FREE Shipping on orders over EGP 350.</p>
+                </div>
+                </a>
+            </div>
+            <div class="card mx-2 my-2 card_store" style="width: 16rem; margin-left: 20px;">
+                <a href="#" class="link_phone">
+                    <img src="images/Apple iPhone 14 Pro Max.jpg" class="card-img-top img_card" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title card_brand">SAMSUNG GALAXY(A53 5G)</h5>
+                        <div class="price_info">
+                            <p class="price"><sup>EGP</sup>38,996<sup>00</sup></p>
+                            <p class="Last_p No_Offer"><sup>EGP</sup><s>51,995</s><sup>00</sup></p> 
+                        </div>
+                        <div class="card_offer">
+                            <p class="No_Offer">_</p>
+                        </div>
+                        <p class="card-text">Get it as soon as Tomorrow, Apr 7 Fulfilled by Mobile GO - FREE Shipping on orders over EGP 350.</p>
+                </div>
+                </a>
+            </div>
+            <div class="card mx-2 my-2 card_store" style="width: 16rem; margin-left: 20px;">
+                <a href="#" class="link_phone">
+                    <img src="images/Apple iPhone 14 Pro Max.jpg" class="card-img-top img_card" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title card_brand">SAMSUNG GALAXY(A53 5G)</h5>
+                        <div class="price_info">
+                            <p class="price"><sup>EGP</sup>38,996<sup>00</sup></p>
+                            <p class="Last_p No_Offer"><sup>EGP</sup><s>51,995</s><sup>00</sup></p> 
+                        </div>
+                        <div class="card_offer">
+                            <p class="No_Offer">_</p>
+                        </div>
+                        <p class="card-text">Get it as soon as Tomorrow, Apr 7 Fulfilled by Mobile GO - FREE Shipping on orders over EGP 350.</p>
+                </div>
+                </a>
+            </div>
+            <div class="card mx-2 my-2 card_store" style="width: 16rem; margin-left: 20px;">
+                <a href="#" class="link_phone">
+                    <img src="images/Apple iPhone 14 Pro Max.jpg" class="card-img-top img_card" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title card_brand">SAMSUNG GALAXY(A53 5G)</h5>
+                        <div class="price_info">
+                            <p class="price"><sup>EGP</sup>38,996<sup>00</sup></p>
+                            <p class="Last_p No_Offer"><sup>EGP</sup><s>51,995</s><sup>00</sup></p> 
+                        </div>
+                        <div class="card_offer">
+                            <p class="No_Offer">_</p>
+                        </div>
+                        <p class="card-text">Get it as soon as Tomorrow, Apr 7 Fulfilled by Mobile GO - FREE Shipping on orders over EGP 350.</p>
+                </div>
+                </a>
+            </div>
+            <div class="card mx-2 my-2 card_store" style="width: 16rem; margin-left: 20px;">
+                <a href="#" class="link_phone">
+                    <img src="images/Apple iPhone 14 Pro Max.jpg" class="card-img-top img_card" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title card_brand">SAMSUNG GALAXY(A53 5G)</h5>
+                        <div class="price_info">
+                            <p class="price"><sup>EGP</sup>38,996<sup>00</sup></p>
+                            <p class="Last_p No_Offer"><sup>EGP</sup><s>51,995</s><sup>00</sup></p> 
+                        </div>
+                        <div class="card_offer">
+                            <p class="No_Offer">_</p>
+                        </div>
+                        <p class="card-text">Get it as soon as Tomorrow, Apr 7 Fulfilled by Mobile GO - FREE Shipping on orders over EGP 350.</p>
+                </div>
+                </a>
+            </div>
+            <div class="card mx-2 my-2 card_store" style="width: 16rem; margin-left: 20px;">
+                <a href="#" class="link_phone">
+                    <img src="images/Apple iPhone 14 Pro Max.jpg" class="card-img-top img_card" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title card_brand">SAMSUNG GALAXY(A53 5G)</h5>
+                        <div class="price_info">
+                            <p class="price"><sup>EGP</sup>38,996<sup>00</sup></p>
+                            <p class="Last_p No_Offer"><sup>EGP</sup><s>51,995</s><sup>00</sup></p> 
+                        </div>
+                        <div class="card_offer">
+                            <p class="No_Offer">_</p>
+                        </div>
+                        <p class="card-text">Get it as soon as Tomorrow, Apr 7 Fulfilled by Mobile GO - FREE Shipping on orders over EGP 350.</p>
+                </div>
+                </a>
+            </div>
+            <div class="card mx-2 my-2 card_store" style="width: 16rem; margin-left: 20px;">
+                <a href="#" class="link_phone">
+                    <img src="images/Apple iPhone 14 Pro Max.jpg" class="card-img-top img_card" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title card_brand">SAMSUNG GALAXY(A53 5G)</h5>
+                        <div class="price_info">
+                            <p class="price"><sup>EGP</sup>38,996<sup>00</sup></p>
+                            <p class="Last_p No_Offer"><sup>EGP</sup><s>51,995</s><sup>00</sup></p> 
+                        </div>
+                        <div class="card_offer">
+                            <p class="No_Offer">_</p>
+                        </div>
+                        <p class="card-text">Get it as soon as Tomorrow, Apr 7 Fulfilled by Mobile GO - FREE Shipping on orders over EGP 350.</p>
+                </div>
+                </a>
+            </div>
+            <div class="card mx-2 my-2 card_store" style="width: 16rem; margin-left: 20px;">
+                <a href="#" class="link_phone">
+                    <img src="images/Apple iPhone 14 Pro Max.jpg" class="card-img-top img_card" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title card_brand">SAMSUNG GALAXY(A53 5G)</h5>
+                        <div class="price_info">
+                            <p class="price"><sup>EGP</sup>38,996<sup>00</sup></p>
+                            <p class="Last_p No_Offer"><sup>EGP</sup><s>51,995</s><sup>00</sup></p> 
+                        </div>
+                        <div class="card_offer">
+                            <p class="No_Offer">_</p>
+                        </div>
+                        <p class="card-text">Get it as soon as Tomorrow, Apr 7 Fulfilled by Mobile GO - FREE Shipping on orders over EGP 350.</p>
+                </div>
+                </a>
+            </div>
+        </div>
     </div>
+    <script src="bootstrap/js/bootstrap.js"></script>
 </body>
 </html>

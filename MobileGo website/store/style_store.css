@@ -1,4 +1,11 @@
-/*    red color #a0000a   */
+/*    Main MobileGo color #a0000a   */
+/*      Second color #770008         */
+
+:root{
+    --mobile-go-color:#a0000a;
+    --second-color:#770008;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -19,6 +26,7 @@ body{
     left: 0;
     width: 100%;
     z-index: 10000;
+    box-shadow: 0px 0px 10px rgb(1, 1, 1, 0.3);
 }
 
 .nav_logo{
@@ -51,7 +59,7 @@ body{
     font-size: 80%;
     transition:  0.3s;
     border: 2px solid transparent;
-    transition: border-bottom 0.3s;
+    transition: 0.3s;
 }
 
 ul:hover li .nav_link{
@@ -59,7 +67,7 @@ ul:hover li .nav_link{
 }
 
 ul li .nav_link:hover{
-    border-bottom: 2px solid #a0000a;
+    border-bottom: 2px solid var(--mobile-go-color);
     opacity:1;
     text-decoration:none;
     color:rgb(0, 0, 0);
@@ -76,13 +84,13 @@ ul li .nav_link:hover{
     float: right;
     text-decoration: none;
     font-size: 17px;
-    margin-top: 35px;
+    margin-top: 30px;
     margin-right: 2%;
     transition: 0.5s ease;
 }
 .log_in:link,
 .log_in:visited{
-    background-color: #a0000a;
+    background-color: var(--mobile-go-color);
     color: #fff;
     padding: 5px;
     border-radius: 13px;
@@ -90,100 +98,91 @@ ul li .nav_link:hover{
 }
 
 .log_in:hover{
-    background-color: #770008;
-    transform: scale(1.1);
+    background-color: var(--second-color);
 }
-
-.home_vedio{
-    margin-top: 100px;
-}
-/* Mohamed styles of cards */
-
-
-.store{
+.Heaading_store{
     display: flex;
     margin-top: 110px;
     margin-left: 45%;
-    color: #a0000a;
+    color: var(--mobile-go-color);
 }
 
-.store h3{
+.Heaading_store h3{
     font-size: 40px;
     font-family: 'Inter', sans-serif;
     font-weight: 450;
 }
-hr{
-    margin-top: 75px;
-    border-color: #a0000a;
-}
-.img{
-    width: 70%;
-    height: 44%;
-    border-radius: 25px;
-    margin-bottom: 20px;
-}
-.card{
-    background-color: #fff;
-    color: white;
-    width: 21.25em;
-    box-shadow: 0 5px 25px rgba(1 1 1 / 100%);
-    border-radius: 30px;
-    padding: 30px;
-    margin: 150px 20px 20px 50px;
-    margin-top: 50px;
-    background-color: #696969;
-    transition: 0.7s ease;
-    text-align: center;
-    font-family: 'Inter', sans-serif;
-}
-.card:hover{
-    transform: scale(1.1);
-    cursor: pointer;
+
+/* Mohamed styles of cards */
+.cards_container{
+    background-color: rgb(241, 241, 241); 
+    height: 100%; 
+    padding-top: 100px;
 }
 
-.img_container h1{
-    font-weight: 200;
+.card_store{
+    width: 16rem; 
+    margin-left: 20px; 
+    box-shadow: 0px 5px 25px rgb(0.5  0.5  0.5 / 20%);
+    border-radius: 15px;
+    transition: 0.5s ease;
 }
-.info{
+.card_store:hover{
+    transform: scale(1.03);
+}
+
+.img_card{
+    width: 230px;
+    height: 303.16px;
+    margin-top: 15px;
+}
+
+.link_phone{
+    text-decoration: none;
+    color: #000;
+}
+
+.card_brand{
     text-align: center;
 }
-.info p{
-    color:#fff;
-    font-weight: 300;
-    margin: 10px;
+
+.price_info{
+    text-align: left;
+    margin-top: 10px;
+}
+
+.price_info p{
+    margin-bottom: 0;
 }
 .price{
-    font-size: 1.3em;
+    font-size: 120%;
+    font-weight: 500;
 }
 .info_text{
-    padding-top: 35px;
-    font-size: 1.2em;
+    font-size: 90%;
 }
 
-.button{
-    background-color:#DCDCDC;
-    border-radius: 10px;
-    font-size: 20px;
-    margin-top: 30px;
-    transition: 0.3s ease;
+sup{
+    font-size: 50%;
+    color: rgb(150, 150, 150);
 }
 
-.button:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    font-size: 1.34em;
+s{
+    color: rgb(150, 150, 150);
 }
 
-.card_container{
-    display: flex;
-    display: inline-flex;
-    justify-content: center;
-    flex-wrap: wrap; /*if the screen zoomed out, each card will move down */
+.card_offer{
+    text-align: right;
+    margin-right: 8%;
+    color: #5bc86e;
 }
 
-.card_link{
-    text-decoration: none;
+.No_Offer{
+    color: #fff;
+    opacity: 0;
 }
+
+/* Mohamed styles of cards */
 
 /* Customize Top button using id */
 #myBtn {
@@ -195,7 +194,7 @@ hr{
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: #a0000a;
+    background-color: var(--mobile-go-color);
     color: white;
     cursor: pointer;
     padding: 15px;
@@ -204,14 +203,14 @@ hr{
 }
 /* when Hover on Top button  */
 #myBtn:hover {
-    background-color: #770008;
-    transform: scale(1.2);
+    background-color: var(--second-color);
+    transform: scale(1.06);
     cursor: pointer;
 }
 
 .arrow{
-    width: 15px;
-    /* height: 30px; */
+    width: 20px;
+    font-size: 20px;
     padding-right: 4px;
     padding-left: 4px;
 }
