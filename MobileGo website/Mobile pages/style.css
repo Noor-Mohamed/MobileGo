@@ -243,7 +243,7 @@ html{
 .order{
     border-radius: 20px;
     border: 1px solid rgb(193, 193, 193);
-    padding: 10px 5px;
+    padding: 10px 10px;
 }
 
 .price_info2{
@@ -349,7 +349,7 @@ html{
 .cart_link:visited{
     background-color: #ea0010;
     color: #fff;
-    padding: 5px 48px;
+    padding: 5px 43px;
     border-radius: 13px;
     transition: 0.2s;
 }
@@ -360,7 +360,7 @@ html{
 .buy_link:visited{
     background-color: #a0000a;
     color: #fff;
-    padding: 5px 57px;
+    padding: 5px 52px;
     border-radius: 13px;
     transition: 0.2s;
 }
