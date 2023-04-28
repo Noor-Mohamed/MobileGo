@@ -349,7 +349,7 @@ html{
 .cart_link:visited{
     background-color: #ea0010;
     color: #fff;
-    padding: 5px 51px;
+    padding: 5px 48px;
     border-radius: 13px;
     transition: 0.2s;
 }
@@ -360,7 +360,7 @@ html{
 .buy_link:visited{
     background-color: #a0000a;
     color: #fff;
-    padding: 5px 60px;
+    padding: 5px 57px;
     border-radius: 13px;
     transition: 0.2s;
 }
