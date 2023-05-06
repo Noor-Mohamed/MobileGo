@@ -118,6 +118,7 @@ ul li .nav_link:hover{
     background-color: rgb(241, 241, 241); 
     height: 100%; 
     padding-top: 100px;
+    padding-bottom: 60px;
 }
 
 .card_store{
