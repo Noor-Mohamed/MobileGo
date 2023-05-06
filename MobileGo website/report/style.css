@@ -1,0 +1,89 @@
+
+html{
+    background-color: #e8e8e8;
+}
+
+.body{
+    background-color:#e8e8e8; 
+}
+
+.head{
+    border-bottom: solid #a0000a 1px;
+}
+
+.main_area{
+    margin-top: 70px;
+}
+
+.report_h{
+    padding-top: 50px;
+    color: #fff;
+}
+
+.small_text{
+    color: #fff;
+    margin-left: 2%;
+    
+}
+
+
+.all{
+    height: 600px;
+    margin-top: 150px;
+    background-color: rgb(31, 31, 31);
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px rgb(62, 62, 62);
+}
+
+.copy_r{
+    position: absolute;
+    bottom: 0px;
+    left: 45%;
+}
+/*----------------nav-----------------------*/
+
+.navigation{
+    box-shadow: 0px 0px 10px rgb(1, 1, 1, 0.3);
+}
+@media only screen and (min-width: 991px){
+    .main_nav a:link,
+    .main_nav a:visited {
+        padding: 4px 0px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-weight: 400;
+        border: 1px solid transparent;
+        transition: 0.3s;
+    }
+
+    .main_nav:hover a{
+        color: rgb(171, 171, 171);
+    }
+
+    .main_nav a:hover{
+        border-bottom: 1px solid #a0000a;
+        opacity:1;
+        text-decoration:none;
+        color:rgb(0, 0, 0);
+    }
+
+    .log_in:link,
+    .log_in:visited{
+        text-decoration: none;
+        background-color: #a0000a;
+        color: #fff;
+        padding: 2px 5px;
+        border-radius: 12px;
+        transition: 0.3s;
+    }
+
+    .log_in:hover{
+        background-color: #770008;
+    }
+}
+@media only screen and (max-width: 990px){
+    .log_in{
+        text-decoration: none;
+        color: #a0000a;
+    }
+}
