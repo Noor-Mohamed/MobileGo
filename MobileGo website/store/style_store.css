@@ -17,7 +17,7 @@ body{
     margin: 0;
     padding: 0;
 }
-/* Noor styles of navbar */
+/* Start Styling Navbar */
 .home_navbar{
     background-color: #fff;
     height: 75px;
@@ -67,7 +67,7 @@ ul:hover li .nav_link{
 }
 
 ul li .nav_link:hover{
-    border-bottom: 2px solid var(--mobile-go-color);
+    border-bottom: 1px solid var(--mobile-go-color);
     opacity:1;
     text-decoration:none;
     color:rgb(0, 0, 0);
@@ -112,8 +112,11 @@ ul li .nav_link:hover{
     font-family: 'Inter', sans-serif;
     font-weight: 450;
 }
+/* End Styling Navbar */
 
-/* Mohamed styles of cards */
+
+/* Start Styling cards */
+
 .cards_container{
     background-color: rgb(241, 241, 241); 
     height: 100%; 
@@ -182,10 +185,10 @@ s{
     color: #fff;
     opacity: 0;
 }
+/* End Styling cards */
 
-/* Mohamed styles of cards */
 
-/* Start Customizing Top button using id */
+/* Start Styling Top button using id */
 #myBtn {
     display: none;
     position: fixed;
@@ -209,4 +212,4 @@ s{
     border-radius: 50%;
 }
 
-/* End Customizing Top button using id */
+/* End Styling Top button using id */
