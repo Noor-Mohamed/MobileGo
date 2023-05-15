@@ -31,22 +31,9 @@ function changeImage(imgSrc, n){
     picActive = n;
 }
 window.onload = function(){
-    // function white(){
-    //     document.getElementById('button-dark-mode').innerHTML = 'White'
-    //     document.querySelector('body').style.backgroundColor = '#212121'
-    //     document.querySelector('body').style.color = 'white'
-    //     document.querySelector('body').style.transition = '2s ease'
-    //     document.getElementById('button-dark-mode').addEventListener('click', dark)
-    // }
-    // function dark(){
-    //     document.getElementById('button-dark-mode').innerHTML = 'Dark'
-    //     document.querySelector('body').style.backgroundColor = 'white'
-    //     document.querySelector('body').style.color = 'black'
-    //     document.querySelector('body').style.transition = '2s ease'
-    // }
-    // document.getElementById('button-dark-mode').addEventListener('click', white)
     function toggleDarkMode() {
         const body = document.querySelector('body');
+        const details = document.getElementById('table-details')
         const button = document.getElementById('button-dark-mode');
         if (body.classList.contains('dark')) {
             body.classList.remove('dark');
@@ -54,6 +41,7 @@ window.onload = function(){
             body.style.backgroundColor = '#ffffff'; // set light mode background color
             body.style.color = '#000000'; // set light mode text color
             body.style.transition = '1s ease'
+            details.style.color= '#000000'
         } 
         else {
             body.classList.add('dark');
@@ -61,6 +49,7 @@ window.onload = function(){
             body.style.backgroundColor = '#212121'; // set dark mode background color
             body.style.color = '#ffffff'; // set dark mode text color
             body.style.transition = '1s ease'
+            details.style.color= '#fff'
         }
     }
     
