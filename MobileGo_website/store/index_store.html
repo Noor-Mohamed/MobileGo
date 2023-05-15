@@ -7,23 +7,30 @@
     <link rel="stylesheet" href="style_store.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="lato_font.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <script src="script_store.js"></script>
     <title>Mobile GO</title>
 </head>
 <body>
     <!--Navbar section-->
-    <header class="top">
-        <nav class="home_navbar">
-            <img class="nav_logo" src="images/MobileGo.png" alt="mobilego_logo">
-            <ul class="main_nav">
-                <li><a class="nav_link" href="../Home/index.html">Home</a></li>
-                <li><a class="nav_link" href="#">Store</a></li>
-            </ul>
-            <img class="profile_img" src="images/user.png" alt="user">
-            <a class="log_in" href="../login/index_login.html">Log in</a> 
-        </nav>
-        
-    </header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top navigation">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-4" href="#"><img src="MobileGo.png" width="70px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav main_nav">
+                <a class="nav-link" href="../Home/index.html">Home</a>
+                <a class="nav-link" href="#">Store</a>
+                </div>
+                <div class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <a class="me-4 log_in" href="../login/index_login.html">Log in</a>
+                    <img class="me-4" src="user.png" width="30px">
+                </div>
+            </div>
+        </div>
+    </nav>
     <!--Our products section-->
     
     <!--Top button-->
